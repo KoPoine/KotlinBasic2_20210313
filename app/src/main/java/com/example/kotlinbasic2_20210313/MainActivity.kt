@@ -14,7 +14,7 @@ class MainActivity : AppCompatActivity() {
 //            버튼이 눌리면
 //            1. inputEdt에 적힌 내용을 => inputMessage 변수에 메모. : get
 
-            val inputMessage = inputEdt.text.toString()
+            val inputMessage = inputEdt.text.toString()  // val 변수 = 오른쪽 : String
 
 //            2. contentTxt의 text 속성값을 => inputMessage에 적힌 값으로 변경 : set
 
